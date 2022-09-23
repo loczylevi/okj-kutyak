@@ -83,7 +83,7 @@ legtobb_terheles_hany_kutya = max([db for orvosi, db in stat.items()])
 legtobb_terheles_datum = [orvosi for orvosi, db in stat.items() if legtobb_terheles_hany_kutya == db][0]
 
 print(f"9.feladat: Legjobban leterhelt nap: {legtobb_terheles_datum}: {legtobb_terheles_hany_kutya} kutya")
-
+print("10.feladat: névstatisztika.txt")
 
 kutya_idek = [sor.nev_id for sor in kutyak]
 nevek_listaja = []
